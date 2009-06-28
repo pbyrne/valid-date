@@ -1,3 +1,5 @@
-# TODO add a brief readme
-# TODO add RDoc documentation to lib/valid-date.rb
+Adds String#valid_date? method to add utility to the Rails String#to_date method. Determines whether the string contains a valid date, to check before converting to a date and avoiding an exception.
+
+This gem is released under a broad open-source license. See LICENSE for more details.
+
 # TODO consider switching from manual gemspec to using jeweler (the recommended tool by github to manage the gemspec)
