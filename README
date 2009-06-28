@@ -1,2 +1,3 @@
 # TODO add a brief readme
-# TODO Add RDoc documentation to lib/valid-date.rb
+# TODO add RDoc documentation to lib/valid-date.rb
+# TODO consider switching from manual gemspec to using jeweler (the recommended tool by github to manage the gemspec)
