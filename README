@@ -9,5 +9,3 @@ Examples:
     
 
 This gem is released under a broad open-source license. See LICENSE for more details.
-
-# TODO consider switching from manual gemspec to using jeweler (the recommended tool by github to manage the gemspec)
