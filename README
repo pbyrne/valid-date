@@ -1,11 +1,19 @@
-Adds String#valid_date? method to add utility to the Rails String#to_date method. Determines whether the string contains a valid date, to check before converting to a date and avoiding an exception.
+Adds String#valid_date? and String#valid_time? methods to add utility to the Rails String#to_date and String#to_time methods. Determines whether the string contains a valid date or time, to check before converting to a date and avoiding an exception.
 
 Examples:
 
-    "2008-01-01".valid_date? #=> true
-    "20080101".valid_date?   #=> true
-    "0000-00-00".valid_date? #=> false
-    "".valid_date?           #=> nil
+    "2008-01-01".valid_date?          #=> true
+    "20080101".valid_date?            #=> true
+    "0000-00-00".valid_date?          #=> false
+    "".valid_date?                    #=> nil
+    
+    "2008-01-01".valid_time?          #=> true
+    "20080101".valid_time?            #=> true
+    "2008-01-01 12:00".valid_time     #=> true
+    "2008-01-01 52:99".valid_time     #=> false
+    "0000-00-00".valid_time?          #=> false
+    "".valid_time?                    #=> nil
+    
     
 
 This gem is released under a broad open-source license. See LICENSE for more details.

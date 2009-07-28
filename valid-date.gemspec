@@ -1,6 +1,6 @@
 SPEC = Gem::Specification.new do |s|
   s.name = "valid-date"
-  s.version = "1.0.1"
+  s.version = "1.1.0"
   s.author = "Patrick Byrne"
   s.email = "code@patrickbyrne.net"
   s.homepage = "http://github.com/pbyrne/valid-date/"
